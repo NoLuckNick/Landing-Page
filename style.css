@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    color: white;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Roboto;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-between;
+
+}
+
+.header-logo{
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.title{
+    display: flex;
+    font-size: 48px;
+}
+
+/* remove dots from list */
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    font-size: 22px;
+    background: #1f2937;
+    /* this removes the line under the links */
+    text-decoration: none;
+  }
+
+.header-links{
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.header-image{
+    display: flex;
+}
+
+.footer{
+    display: flex;
+    font-family: Roboto;
+    background-color: #1f2937;
+    color: white;
+}
