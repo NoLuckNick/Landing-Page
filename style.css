@@ -74,11 +74,11 @@ button{
 
 .button{
     background-color: #3882F6;
-    border: none;
     padding: 10px 20px;
     font-size: 18px;
     border-radius: 5px;
     color: #F9FAF8;
+    border: solid 2px #F9FAF8;
 }
 
 .hero-image{
@@ -148,3 +148,24 @@ button{
     margin-top: 10px;
     font-weight: 900;
 }
+
+/* Call To Action */
+
+.cta {
+    background-color: #3882F6;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+  
+  .cta-content h2 {
+    margin: 0 0 20px;
+}
+
+
+
+
+
+
+
